@@ -4,7 +4,7 @@ const ImageCard: React.FC<GeneratedImageProps> = ({ imageUrl, prompt, width, act
   return (
     <div
       onClick={() => action(imageUrl)} // Call the provided action function when the card is clicked, passing the imageUrl
-      className="mt-6 border hover:cursor-pointer" // Add some margin, a border, and change the cursor on hover
+      className="mt-6 border hover:cursor-pointer"
     >
       <img
         src={imageUrl} // Display the image using the provided URL
